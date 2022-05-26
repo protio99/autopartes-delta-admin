@@ -5,8 +5,9 @@ export default function ClientsForm(){
     return(
         <div>
             <div class="container">
+            <h1>Editar Cliente</h1>
                 <form >
-                    <h1>Editar Cliente</h1>
+                    
                     <div>
                         <label for="documentType" class="form-label">Tipo de Documento</label>
                         <input type="text" class="form-control" id="documentType"/>
@@ -39,6 +40,7 @@ export default function ClientsForm(){
                             <option value="Client">Cliente</option>
                             </select>
                         </div>
+                        <div></div>
                     <div>
                         <button type="submit" class="btn btn-primary">Actualizar</button>
                     </div>
